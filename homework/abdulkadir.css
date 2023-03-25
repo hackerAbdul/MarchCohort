@@ -1,0 +1,57 @@
+body{
+    background-color: #7C77B9;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:hotpink;
+}
+
+h1{
+    background-color: black;
+    color: brown;
+    font-size: 60px;
+    width: 50%;
+    border: 10px solid red;
+    border-radius: 50px;
+    text-align: center;
+}
+
+h2{
+    color: blue;
+}
+
+p{
+    text-align: center;
+}
+
+ol{
+    background-color: #8FBFE0;
+    list-style-type: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+/* 
+    class = .
+    id = # 
+*/
+
+#mainHeading{
+    color: white;
+}
+
+li{
+    color: white;
+}
+
+.list-item-1{
+    color: black;
+}
+
+.list-item-2{
+    color: red;
+}
+
+.list-item-3{
+    color: yellow;
+}
