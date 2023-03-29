@@ -55,3 +55,28 @@ li{
 .list-item-3{
     color: yellow;
 }
+
+footer{
+    background-color: white;
+}
+
+#nav-elements{
+    display: block;
+    padding: 15px 10px;
+    background-color: blue;
+    border-right: 1px solid white;
+}
+
+#navbar{
+    display: flex;
+    background-color: coral;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#nav-elements:hover{
+    background-color: orangered;
+}

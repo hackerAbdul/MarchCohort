@@ -1,0 +1,55 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+body{
+    background-color: burlywood;
+}
+
+.card{
+    width: 20%;
+    margin: auto;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(197, 174, 145);
+}
+
+img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+}
+
+.social-media{
+    list-style-type: none;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-media a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    display: block;
+    padding: 10px 15px;
+    border-right: 1px solid black;
+}
+
+li:last-child{
+    border: none;
+}
+
+.social-media a:hover{
+    background-color: grey;
+}
+
+.social-media i{
+    margin: 10px;
+}
+
+span{
+    color: red;
+}
