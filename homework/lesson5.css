@@ -1,0 +1,67 @@
+body{
+    width: 75%;
+    margin: auto;
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+nav ul li {
+    padding: 10px 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover{
+    border-bottom: 1px solid black;
+}
+
+
+header span{
+    color: orange;
+}
+
+main section{
+    background-color: rgb(58, 58, 58);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+main{
+    background-color: orange;
+}
+
+main h3{
+    text-align: center;
+}
+
+.flex-container{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.flex-container div{
+    margin: 10px;
+    padding: 10px;
+}
+
+
+footer{
+    background-color: black;
+    padding: 50px;
+    color: white;
+}
+
+footer h3{
+    text-align: left;
+}

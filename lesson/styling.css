@@ -1,14 +1,12 @@
 body{
     background-color: #7C77B9;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color:hotpink;
 }
 
 h1{
     background-color: black;
     color: brown;
     font-size: 60px;
-    width: 50%;
     border: 10px solid red;
     border-radius: 50px;
     text-align: center;
@@ -23,7 +21,6 @@ p{
 }
 
 ol{
-    background-color: #8FBFE0;
     list-style-type: none;
 }
 
@@ -56,9 +53,6 @@ li{
     color: yellow;
 }
 
-footer{
-    background-color: white;
-}
 
 #nav-elements{
     display: block;
@@ -69,7 +63,7 @@ footer{
 
 #navbar{
     display: flex;
-    background-color: coral;
+
 }
 
 a{
@@ -79,4 +73,72 @@ a{
 
 #nav-elements:hover{
     background-color: orangered;
+}
+
+#aboutme-main{
+    color: white;
+}
+
+div{
+    width: 390px;
+    border: 1px solid black;
+}
+
+#aboutme-main p{
+    border: 1px solid black;
+    text-align: left;
+}
+
+@media only screen and (max-width: 420px) {
+    p{
+        color: white;
+        font-size: 48px;
+        text-align: left;
+        width: 100%;
+
+    }
+    main{
+
+        width: 100%;
+    }
+
+    img{
+        width: 100%;
+    }
+
+    #navbar{
+        display: none;
+    }
+
+    ol li{
+        font-size: 24px;
+        list-style-type: lower-roman;
+        padding: 5px;
+    }
+
+    main h2{
+        font-size: 48px;
+        width: 100%;
+    }
+
+    main ul{
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    p{
+        color: white;
+        font-size: 48px;
+        text-align: left;
+        width: 100%;
+
+    }
+    main{
+        width: 100%;
+    }
+
+    img{
+        width: 100%;
+    }
 }

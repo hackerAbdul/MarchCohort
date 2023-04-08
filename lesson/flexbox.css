@@ -1,0 +1,25 @@
+.flex-container .container div{
+    width: 25%;
+    margin: 10px;
+}
+
+.flex-container{
+    background-color: aqua;
+    
+}
+
+.container{
+    width: 75%;
+    border: 1px solid black;
+    margin: auto;
+    height: 750px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+}
+
+img{
+    width: 100%;
+}
