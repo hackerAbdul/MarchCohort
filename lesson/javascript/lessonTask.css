@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.nightMode{
+    background-color: rgb(65, 62, 62);
+    color: white;
+}
+
+ul li{
+    list-style-type: none;
+}

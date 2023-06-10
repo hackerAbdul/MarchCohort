@@ -1,0 +1,15 @@
+body{
+    height: 700px;
+    border: 1px solid black;
+}
+
+.darkMode{
+    background-color: black;
+    color: white;
+    border: 1px solid pink;
+}
+
+.vibrant{
+    background-color: yellowgreen;
+    color: blue;
+}

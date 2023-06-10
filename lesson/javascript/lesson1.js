@@ -20,13 +20,13 @@ console.log("Hello welcome to lesson 1");
 //const
 
 let age = 25;
-const name = "Abdulkadir"
+const name = "Abdulkadir";
 
 
 console.log(name);
 
 //string concatenation
-console.log("Hello my name is " + name + " and I am " + age + " years old")
+console.log("Hello my name is " + name + " and I am " + age + " years old");
 
 //string interpolation
-console.log(`Hello my name is ${name} and I am ${age} years old`)
+console.log(`Hello my name is ${name} and I am ${age} years old`);
