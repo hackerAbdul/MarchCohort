@@ -1,0 +1,48 @@
+.Card{
+    width: 20%;
+    margin: auto;
+    background-color: rgb(158, 131, 131);
+    border-radius: 10px;
+    height: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.Card p{
+    padding: 10px;
+}
+
+.Card-Components{
+    height: auto;
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+nav ul li{
+    padding: 10px 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover{
+    border-bottom: 1px solid black;
+}
